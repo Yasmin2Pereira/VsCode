@@ -231,6 +231,10 @@ footer p {
     padding: 10px;
     padding-bottom: 20px;
 }
+
+footer > ul {
+    list-style-position: inside;
+}
 /*
 
 footer ul p {
