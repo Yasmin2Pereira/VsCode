@@ -103,12 +103,14 @@ header p {
 }
 
 header img {
-    width: 100px;
+    width: 30px;
+    padding-left: 10px;
 }
 
 header img, h1 {
     display: inline-block;
 }
+
 
 .esquerda {
     background-color: white;
@@ -137,6 +139,12 @@ header img, h1 {
     text-indent: 20px;
     line-height: 30px;
     padding: 20px 0px;
+}
+
+main img {
+    width: 497px;
+    height: 400px;
+    margin: auto;
 }
 
 .direita {
@@ -233,11 +241,6 @@ footer ul {
     padding: 20px;
 }
 */
-.cont {
-    min-width: 280px;
-    max-width: 800px;
-    margin: auto;
-}
 
 .caixa {
     background-color: white;
