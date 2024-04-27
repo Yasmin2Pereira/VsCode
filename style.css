@@ -191,6 +191,7 @@ footer {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     color: white;
     font-size: 20px;
+    text-align: center;
     padding: 5px;
 }
 
