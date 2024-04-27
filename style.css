@@ -142,9 +142,12 @@ header img, h1 {
 }
 
 main img {
-    width: 497px;
-    height: 400px;
-    margin: auto;
+    width: 400px;
+    height: 300px;
+}
+
+.espaco {
+    padding-left: 100px;
 }
 
 .direita {
@@ -174,6 +177,10 @@ main img {
     text-indent: 20px;
     line-height: 30px;
     padding: 20px 0px;
+}
+
+.contaneir {
+
 }
 
 .normal {
@@ -231,17 +238,6 @@ footer p {
     padding: 10px;
     padding-bottom: 20px;
 }
-
-/*
-
-footer ul p {
-    padding: 10px;
-}
-
-footer ul {
-    padding: 20px;
-}
-*/
 
 .caixa {
     background-color: white;
