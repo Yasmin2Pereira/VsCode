@@ -369,3 +369,34 @@ ul li {
     font-size: 25px;
     font-family: var(--font-titulo)
 }
+
+/* Tabela - Usuario */
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+caption {
+    font-size: 1em;
+    font-style: italic;
+    padding: 10px;
+}
+
+thead {
+    background-color: rgb(77, 77, 77);
+    color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#container {
+    overflow-x: auto;
+}
+
+.centro {
+    text-align: center;
+}
