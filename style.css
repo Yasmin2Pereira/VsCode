@@ -123,7 +123,7 @@ header img, h1 {
     margin-bottom: 50px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233);
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .esquerda h2{
@@ -143,11 +143,6 @@ header img, h1 {
     padding: 20px 0px;
 }
 
-main img {
-    width: 400px;
-    height: 300px;
-}
-
 .espaco {
     padding-left: 100px;
 }
@@ -161,7 +156,7 @@ main img {
     margin-bottom: 50px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233);
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .direita h2{
@@ -185,9 +180,8 @@ main img {
     background-color: white;
     min-width: 300px;
     max-width: 1000px;
-    height: 490px;
-    width: 800px;
-    margin: auto;    
+    height: 30vw;
+    margin: auto;
     margin-bottom: 100px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233);
     border-radius: 20px 20px 20px 20px;
@@ -228,6 +222,10 @@ main img {
     display: grid;
 }
 
+.normal {
+    margin-top: 250px;
+}
+
 .normal p {
     padding-top: 30px;
 }
@@ -238,6 +236,7 @@ main img {
 
 .normal h2 {
     color: var(--cor3);
+    text-align: center;
     font-family: var(--font-titulo);
     font-weight: normal;
     font-size: 50px;
@@ -253,7 +252,6 @@ main img {
 footer {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     color: white;
-    font-size: 20px;
     text-align: justify;
     padding: 5px;
 }
