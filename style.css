@@ -276,11 +276,14 @@ footer p {
 
 .caixa {
     background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233);
-    border-radius: 0px 20px 0px 20px;
-    display: grid;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .coluna {
@@ -325,17 +328,12 @@ ul li {
 
 .tipo {
     padding-top: 50px;
-    columns: 2;
 }
 
 .tipo li {
     font-family: var(--font-titulo);
     font-size: 25px;
     padding-top: 50px;
-}
-
-.pilar {
-    columns: 2;
 }
 
 .pilar li {
