@@ -42,7 +42,12 @@ nav {
 }
 
 span {
+    border: 10px solid var(--cor2);
     background-color: var(--cor2);
+    border-radius: 2px;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.625);
+    transition: transform 0.5s, border 1s;
 }
 
 nav a {
@@ -399,4 +404,13 @@ th, td {
 
 .centro {
     text-align: center;
+}
+
+/* Botões */
+
+#botoes a:hover {
+    border: 2px solid rgba(255, 255, 255, 0.636);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.625);
+    transition: transform 0.5s, border 1s;
 }
