@@ -34,6 +34,8 @@ body {
     min-height: 100%;
 }
 
+/* MENU */
+
 nav {
     background-color: var(--cor5);
     padding: 20px;
@@ -68,19 +70,7 @@ nav a:hover {
     transition: transform 0.5s, border 1s;
 }
 
-main a {
-    color: var(--cor4);
-    text-decoration: none;
-    transition-duration: 0.5s;
-    font-size: 20px;
-}
-
-main a:hover {
-    background-color: var(--cor1);
-    color: var(--cor5);
-    width: auto;
-}
-
+/* CABEÇALHO */
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
@@ -119,6 +109,20 @@ header img, h1 {
     display: inline-block;
 }
 
+/* CORPO */
+
+main a {
+    color: var(--cor4);
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-size: 20px;
+}
+
+main a:hover {
+    background-color: var(--cor1);
+    color: var(--cor5);
+    width: auto;
+}
 
 .esquerda {
     background-color: white;
@@ -249,6 +253,8 @@ header img, h1 {
     text-align: justify;
 }
 
+/* RODAPE */
+
 footer {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     color: white;
@@ -272,6 +278,8 @@ footer p {
     padding: 10px;
     padding-bottom: 20px;
 }
+
+/* DAS OUTRAS PAGINAS */
 
 .caixa {
     background-color: white;
@@ -376,7 +384,7 @@ ul li {
     font-family: var(--font-titulo)
 }
 
-/* Tabela - Usuario */
+/* TABELA - USUARIO */
 
 table {
     border-collapse: collapse;
